@@ -4,7 +4,7 @@
 function procesarPedido(pedido) {
     let cliente = pedido.pop()
     pedido.unshift("bebida")
-    pedido.push(cliente)
+    pedido.shift(cliente)
     console.log(pedido)
 }
 
